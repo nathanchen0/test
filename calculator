@@ -1,0 +1,12 @@
+num1 = int(input("What is the first number?"))
+num2 = int(input("what is the second number"))
+command = input("What sign do you want to use?")
+if command == "+":
+    result = num1 + num2
+elif command == "-":
+    result = num1 - num2
+elif command == "/":
+    result = num1 / num2
+elif command == "*":
+    result = num1 * num2
+print(result)
